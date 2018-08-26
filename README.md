@@ -10,15 +10,17 @@ $ npm install
 ```
 
 ### Generate documentation
-```bast
+```bash
 $ npm run build
 ```
 
 ## Project structure
 
+```
 .
 ├── components              # Contains the .ts file(s) wherein the information for the documentation will be extracted
 ├── docs                    # Documentation files generated from running `npm run build`
 ├── src                     # Source files
 ├── index.ts                # Entry point
 └── README.md
+```
