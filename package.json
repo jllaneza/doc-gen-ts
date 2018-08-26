@@ -1,0 +1,20 @@
+{
+  "name": "doc-gen-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/ts-node index.ts components",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Llaneza",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.7.1"
+  },
+  "dependencies": {
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.0.1"
+  }
+}
