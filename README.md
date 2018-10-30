@@ -1,5 +1,7 @@
 # doc-gen-ts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jllaneza/doc-gen-ts.svg)](https://greenkeeper.io/)
+
 A sample project using [Typescript API](https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API) that reads the .ts file(s) to extract information that might be useful for automating the documentation. As of now, it produces plain .json file(s).
 
 ## Getting Started
